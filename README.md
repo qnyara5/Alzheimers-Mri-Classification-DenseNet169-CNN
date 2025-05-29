@@ -29,6 +29,15 @@ The trained model is exported in **three different formats** for flexible deploy
 | `TensorFlow.js`  | For running in web browsers          | `/tfjs_model/`            |
 | `TFLite`         | For mobile and embedded devices      | `/model.tflite`           |
 
+## Accuracy
+
+| Metric              | Value       |
+|---------------------|-------------|
+| Test Accuracy       | **94.28%**  |
+| Test Loss           | 0.1347      |
+| Validation Accuracy | **95.57%**  |
+| Validation Loss     | 0.1203      |
+
 ## Installation
 
 ```bash
